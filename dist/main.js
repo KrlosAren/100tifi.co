@@ -88,7 +88,7 @@
       "/:id": async () => {
         const t = await c(),
           n = await i(t);
-        return `\n        <div class="Characters-inner">\n            <article class="Characters-card"> \n                <img src="${n.image}" alt="${n.name}">\n                <h2>${n.name}</h2>\n            </article>\n            <article class="Characters-card">\n                <h3>Episodes: <span>${n.episode.length}</span></h3>\n                <h3>Status: <span>${n.status}</span></h3>\n                <h3>Species: <span>${n.species}</span></h3>\n                <h3>Gender: <spa>${n.gender}</span></h3>\n                <h3>Origin: <span>${n.origin.name}</spa></h3>\n                <h3>Last Location: <span>${n.location.name}</spa></h3>\n            </article>\n        </div>\n    `;
+        return `\n        <div class="Characters-inner">\n            <article class="Characters-card">\n                <img src="${n.image}" alt="${n.name}">\n                <h2>${n.name}</h2>\n            </article>\n            <article class="Characters-card">\n                <h3>Episodes: <span>${n.episode.length}</span></h3>\n                <h3>Status: <span>${n.status}</span></h3>\n                <h3>Species: <span>${n.species}</span></h3>\n                <h3>Gender: <spa>${n.gender}</span></h3>\n                <h3>Origin: <span>${n.origin.name}</spa></h3>\n                <h3>Last Location: <span>${n.location.name}</spa></h3>\n            </article>\n        </div>\n    `;
       },
       "/contact": "Contact",
     };
